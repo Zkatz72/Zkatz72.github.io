@@ -192,5 +192,5 @@ a {
     }
     .project-section{
         grid-template-columns: repeat(3, 3fr);
-        }
+      }
   }
