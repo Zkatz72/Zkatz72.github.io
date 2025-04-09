@@ -1,1 +1,136 @@
-Hello Word
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend&display=swap" rel="stylesheet">
+    <link href="index.css", rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+
+    
+    <nav class = "sidebar" >
+
+      <div class = "profile-container">
+        <img src="profile.HEIC" alt="Profile Picture" class="profile-image">
+        <h4>Zachary Katz</h4>
+        <h5>MSCS @ UCI</h5>
+      </div>
+
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#experience">Work Experience</a></li>
+        <li><a href="#courses-taken">Courses</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+
+      <div class = 'social-section'>
+        <p><b>Email</b>: zacharyevankatz <i>at</i> gmail <i>dot</i> com</p>
+        
+      <div class = 'social-icons'>
+      <a href="https://github.com/Zkatz72" target="_blank" class="github">
+          <i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/zachary-katz-681261229/" target="_blank" class="linkedin">
+      <i class="fab fa-linkedin"></i></a>
+    </div>
+      </div>
+
+    </nav>
+    <nav class = "top-nav">
+      <div class = "top-nav-name" >
+        <img src="profile.HEIC" alt="Profile Picture" class="profile-image">
+        <h4>Zachary Katz</h4>
+        <h5>MSCS @ UCI</h5>
+        <p><b>Email: </b>zacharyevankatz <i>at</i> gmail <i>dot</i> com</p>
+        <div class = 'social-icons'>
+          <a href="https://github.com/Zkatz72" target="_blank" class="github">
+              <i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/zachary-katz-681261229/" target="_blank" class="linkedin">
+          <i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      
+
+    </nav>
+    <div class ='content-body'>
+     
+    
+    <div class = 'section-body' id = "about">
+      <h2>About Me</h2>
+      <p>My name is Zachary Katz and I am currently a first-year MSCS student at the University of California, Irvine. I am currently working as a Teaching Assistant for <b> ICS 32: Programming with Software Libraries</b> taught by Professor Mohammad Moshirpour. I received my BS in Computer Science from UCI in March 2024.</p>
+    </div>
+    <div class = 'section-body' id = "#experience">
+      <h2>Work Experience</h2>
+      <h5>Teaching Assistant (September 2024 - Present)</h5>
+      <h6><i>Donald Bren School of Information and Computer Science</i></h6>
+      <ul>
+        <li>Courses: Algorithms (Fall 2024), Concurrent Programming (Fall 2024), Programming with Software Libraries (Winter 2025).</li>
+        <li>Assist in instruction and aided students with diverse backgrounds in writing programs in Java and Python.</li>
+        <li>Design programming assignments and assist in curriculum planning.</li>
+        <li>Assess students’ understanding in concepts through live demonstrations.</li>
+        <li>Designed and coordinated a LeetCode Workshop attended by students new to the field of computer science.</li>
+      </ul>
+      <h5>Undergraduate Research Assistant (October 2023- March 2024)</h5>
+      <h6><i>Donald Bren School of Information and Computer Science</i></h6>
+      <ul>
+        <li>Worked in Professor Brian Demsky’s lab to explore the software development capabilities of large language models, namely ChatGPT4.</li>
+        <li>Leveraged Python and OpenAI API calls to write tools capable of implementing software and assessing the effectiveness of the output.</li>
+        <li>Experimented with prompt engineering and multiple LLM agents to optimize code output based on correctness and efficiency.</li>
+        </ul>
+    </div>
+    <h2>Projects</h2>
+    
+      <div class = 'project-section', id = 'projects'>
+        <div class = 'project-item'>
+          <div class = "default">
+            <h4>ZotFitness</h4>
+            <img src="zf.png", alt="minesweeper" class = 'project-image'>
+          </div>
+          <div class = "hovered">
+            <p>Cross-platform mobile application that allows users to chronicle their workout plans,
+              meals, and sleep schedule and get personalized recommendations.</p>
+            <p><b>TypeScript, React Native, Firebase</b></p>
+          </div>
+
+        </div>
+        
+        <div class = 'project-item'>
+          <div class = "default">
+            <h4>Minesweeper</h4>
+            <img src="minesweeper.png", alt="minesweeper" class = 'project-image'>
+          </div>
+          <div class = "hovered">
+            <p>Recreation of Minesweeper game using Pygame. Integrates a Minesweeper solver AI capable of solving  </p>
+            <p><b>Python, Pygame</b></p>
+          </div>
+        </div>
+        <div class = 'project-item'>
+          <div class = "default">
+            <h4>SET® Puzzle</h4>
+            <img src="setgame.png", alt="setgame" class = 'project-image'>
+          </div>
+          <div class = "hovered">
+            <p>Recreation of SET® Puzzle with Tkinter.</p>
+            <p><b>Python, Tkinter</b></p>
+          </div>
+        </div>
+
+      </div>
+      
+
+    
+    </div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+
+
+body {
+    font-family: 'Figtree';
+    display: flex;
+    margin:0;
+    padding:0;
+    flex-direction: column;
+}
+.sidebar {
+    padding-top: 3%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #343434;
+    color: #ffffff;
+}
+a {
+    color: #5badf9; /* Blue color for normal links */
+     /* Remove underline */
+  }
+
+.content-body{
+    font-family: 'Figtree';
+    padding:2%;
+    display: flex;
+    margin-left: 10px; /* Space for the fixed sidebar */
+    width: 100%;
+    background-color: #ffffff;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 95%;
+    
+
+}
+.social-section{
+    margin-top: 180%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0%;
+}
+.social-section p{
+    align-self: center;
+    width: 95%;
+    margin-bottom: 0;
+
+}
+.social-icons{
+    align-self: center;
+    
+}
+.social-icons i {
+    font-size: 30px; /* Change this value to make the icon larger or smaller */
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.social-icons hr{
+    color: #ffffff;
+}
+.profile-image{
+
+    width: 150px; /* Set the width */
+    height: 150px; /* Set the height to the same value as width to make it square */
+    border-radius: 50%; /* This creates the circular shape */
+    object-fit: cover; /* Ensures the image covers the entire area, maintaining aspect ratio */
+    border: 3px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+.project-section{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr); /* 3 equal columns */
+    gap: 8px; 
+    width: 90%;  
+    max-width: 50%;
+}
+.project-item {
+    background-color: #343434;  /* Green background */
+    padding: 20px;
+    border-radius: 20px;
+    display: grid;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    height: auto;
+    position: relative;
+
+
+  }
+
+.name-tag{
+    font-family: 'Figtree';
+    font-size: large;
+}
+.profile-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    width: 100%;
+    height: 25%;
+    background-color: #343434;
+    margin-bottom: 10px;
+  }
+  .project-image{
+
+    width: 150px; /* Set the width */
+    height: 200px; /* Set the height to the same value as width to make it square */
+    /* This creates the circular shape */
+    object-fit: cover; /* Ensures the image covers the entire area, maintaining aspect ratio */
+    
+    margin-bottom: 10px;
+}
+.project-item:hover .default {
+    opacity: 0;
+  }
+
+  .project-item:hover .hovered {
+    opacity: 1;
+  }
+
+  .project-item .default {
+    
+    opacity: 1;
+    transition: opacity 0.3s ease;
+
+  }
+
+  .project-item .hovered {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+    transition: opacity 0.3s ease;
+    text-align: left;
+    
+
+  }
+
+  .project-item .hovered p {
+    width: 90%
+  }
+
+  .top-nav {
+    display: inline;
+    
+    
+  }
+  .top-nav-name .profile-image{
+    margin-top: 5%;
+  }
+  .top-nav-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #343434;
+    width: 100%;
+    color:#ffffff;
+    margin-left: 0;
+  }
+  .top-nav-name p {
+    margin-bottom: 0;
+  }
+
+
+  @media (min-width: 500px) {
+    .sidebar{
+      display: none;
+      
+    }
+    .project-section{
+    grid-template-columns: repeat(3, 3fr);
+    }
+  }
+
+  /* For screens wider than 900px (Desktop and up) */
+  @media (min-width: 900px) {
+    .sidebar{
+        display:flex;
+    }
+    .content-body{
+        margin-left:250px;
+        max-width: 70%;
+    }
+    .top-nav{
+        display: none;
+    }
+    .project-section{
+        grid-template-columns: repeat(3, 3fr);
+        }
+  }
