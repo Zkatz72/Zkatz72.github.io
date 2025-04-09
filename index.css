@@ -10,7 +10,7 @@ body {
 .sidebar {
     padding-top: 3%;
     position: fixed;
-    display: flex;
+    display: none;
     flex-direction: column;
     top: 0;
     left: 0;
@@ -176,15 +176,7 @@ a {
   }
 
 
-  @media (min-width: 500px) {
-    .sidebar{
-      display: none;
-      
-    }
-    .project-section{
-    grid-template-columns: repeat(3, 3fr);
-    }
-  }
+  
 
   /* For screens wider than 900px (Desktop and up) */
   @media (min-width: 900px) {
