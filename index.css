@@ -179,7 +179,7 @@ a {
   
 
   /* For screens wider than 900px (Desktop and up) */
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .sidebar{
         display:flex;
     }
