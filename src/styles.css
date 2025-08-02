@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  --font-figtree: "Figtree", sans-serif;
+  --font-inter: "Inter";
+  --color-dark-bg: rgb(50 50 50);
+}
+
