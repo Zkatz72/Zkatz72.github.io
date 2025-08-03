@@ -15,6 +15,8 @@
 
 html {
   scroll-behavior: smooth;
+  height:100%
+  
 }
 a {
   font-weight: 500;
@@ -25,9 +27,9 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  display: block;
   min-width: 320px;
+  height: 100%
 }
 
 h1 {
@@ -65,4 +67,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+html {
+  background-color: #ffffff;
+}
+
+html.dark {
+  background-color: #121212;
 }

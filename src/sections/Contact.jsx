@@ -8,7 +8,7 @@ function Contact(props) {
     <>
       <div
         id="contact"
-        className=" w-full  border-t-1 border-gray-200 dark:border-neutral-800 text-neutral-900 dark:text-neutral-200 scroll-mt-32 flex justify-center">
+        className=" w-full border-t-1 border-gray-200 dark:border-neutral-800 text-neutral-900 dark:text-neutral-200 scroll-mt-32 flex justify-center">
         <div className="max-w-lg w-full  p-4 flex justify-center items-center flex-col">
             <p className = "mt-4 font-inter">zacharyevankatz <i>at</i> gmail <i>dot</i> com</p>
             
