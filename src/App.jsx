@@ -21,7 +21,7 @@ function App() {
   }
   return (
     <>
-      <div className="relative w-screen h-full top-0 font dark:bg-[#121212] bg-white">
+      <div className="relative w-full h-full top-0 font dark:bg-[#121212] bg-white">
         <Navbar isNight={isNight} toggle={toggleNight}></Navbar>
         <Intro></Intro>
         <SectionsLayout>
