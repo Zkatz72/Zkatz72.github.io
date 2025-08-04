@@ -10,7 +10,7 @@ function Intro() {
           Graduate Teaching Assistant ~ Aspiring Software Engineer
         </h2>
         <p className=" dark:text-neutral-200 font-inter">
-          I’ve been working as a Graduate Teaching Assistant at the University
+          Hi, I'm Zachary Katz! I’ve been working as a Graduate Teaching Assistant at the University
           of California, Irvine since September 2024, while completing my M.S in
           CS. I work for courses taught by Professor Mohammad Moshirpour.
           <br></br>
