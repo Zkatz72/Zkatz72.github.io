@@ -34,6 +34,7 @@ function App() {
           <img onClick={toggleNight}src={isNight ? `icons/${"moon"}.svg`:`icons/${"sun"}.svg`} alt="React logo" className="w-10 h-10 transition-transform duration-300 hover:scale-110" />
             
         </div>
+        <Skills isDark = {isNight}></Skills>
         </SectionsLayout>
         <Contact></Contact>
       </div>

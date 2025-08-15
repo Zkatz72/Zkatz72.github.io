@@ -16,16 +16,17 @@ function Navbar(props) {
           <div className="text-sm dark:text-neutral-200 text-black"><b>Zachary Katz</b></div>
           </a>
         </div>
-        <div className="dark:bg-emerald-400/80  bg-green-400/50 sm:hidden md:hidden lg:hidden xl:hidden flex justify-center items-center  w-10 h-10 rounded-full  transition-transform duration-300 hover:scale-110 ">
+        <div className="dark:bg-emerald-400/80  bg-emerald-400/50 sm:hidden md:hidden lg:hidden xl:hidden flex justify-center items-center  w-10 h-10 rounded-full  transition-transform duration-300 hover:scale-110 ">
           <img onClick={props.toggle} src={props.isNight ? `icons/${"moon"}.svg`:`icons/${"sun"}.svg`} alt="React logo" className="w-6 h-6 transition-transform duration-300 hover:scale-110" />
             
 
         </div>
        
         <div className="space-x-6 font-inter hidden sm:flex md:flex lg:flex text-neutral-900 dark:text-neutral-200 xl:flex">
-          <a href="#" className=" dark:hover:text-emerald-800/80">Home</a>
-          <a href="#experience" className=" dark:hover:text-emerald-800/80">Experience</a>
-          <a href="#projects" className=" dark:hover:text-emerald-800/80">Projects</a>
+          <a href="#" className="hover:text-emerald-400/80  dark:hover:text-emerald-800/80">Home</a>
+          <a href="#experience" className=" hover:text-emerald-400/80 dark:hover:text-emerald-800/80">Experience</a>
+          <a href="#projects" className=" hover:text-emerald-400/80 dark:hover:text-emerald-800/80">Projects</a>
+          <a href="#languages" className="hover:text-emerald-400/80 dark:hover:text-emerald-800/80">Skills</a>
         </div>
         
       </nav>

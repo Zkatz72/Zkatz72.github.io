@@ -3,7 +3,7 @@ import { Linkedin, Mail, Github, FileText} from "lucide-react";
 function Intro() {
   return (
     <>
-    <div className="bg-gradient-to-b  text-neutral-900 from-green-400 to-white dark:bg-gradient-to-b dark:from-emerald-800 dark:to-[#121212]">
+    <div className="bg-gradient-to-b  text-neutral-900 from-emerald-400 to-whitedark:bg-gradient-to-b dark:from-emerald-800 dark:to-[#121212] dark:via-sky-950">
       <div className="flex mx-auto max-w-6xl items-center flex-row h-screen" >
         <div className = "mx-4">
         <h2 className=" dark:text-neutral-200 font-inter font-bold text-3xl ">
