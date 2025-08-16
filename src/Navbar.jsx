@@ -13,20 +13,20 @@ function Navbar(props) {
         <div className = "flex items-center gap-4">
           <img src="profile.jpeg" className='rounded-full w-16 h-16'></img>
           <a href="#">
-          <div className="text-sm dark:text-neutral-200 text-black"><b>Zachary Katz</b></div>
+          <div className="text-xl font-inter dark:text-neutral-200 text-black"><b>Zachary Katz</b></div>
           </a>
         </div>
-        <div className="dark:bg-emerald-400/80  bg-emerald-400/50 sm:hidden md:hidden lg:hidden xl:hidden flex justify-center items-center  w-10 h-10 rounded-full  transition-transform duration-300 hover:scale-110 ">
-          <img onClick={props.toggle} src={props.isNight ? `icons/${"moon"}.svg`:`icons/${"sun"}.svg`} alt="React logo" className="w-6 h-6 transition-transform duration-300 hover:scale-110" />
+        <div className=" sm:hidden md:hidden lg:hidden xl:hidden flex justify-center items-center  w-10 h-10 rounded-full  transition-transform duration-300 hover:scale-110 ">
+          <img onClick={props.toggle} src={props.isNight ? `icons/${"moon"}.svg`:`icons/${"sun"}.svg`} alt="React logo" className="w-6 h-6 transition-transform duration-300 text-white hover:scale-110" />
             
 
         </div>
        
         <div className="space-x-6 font-inter hidden sm:flex md:flex lg:flex text-neutral-900 dark:text-neutral-200 xl:flex">
-          <a href="#" className="hover:text-emerald-400/80  dark:hover:text-emerald-800/80">Home</a>
-          <a href="#experience" className=" hover:text-emerald-400/80 dark:hover:text-emerald-800/80">Experience</a>
-          <a href="#projects" className=" hover:text-emerald-400/80 dark:hover:text-emerald-800/80">Projects</a>
-          <a href="#languages" className="hover:text-emerald-400/80 dark:hover:text-emerald-800/80">Skills</a>
+          <a href="#" className="hover:text-[#b3e5dc] dark:hover:text-sky-800">Home</a>
+          <a href="#experience" className=" hover:text-[#b3e5dc] dark:hover:text-sky-800">Experience</a>
+          <a href="#projects" className=" hover:text-[#b3e5dc] dark:hover:text-sky-800">Projects</a>
+          <a href="#languages" className="hover:text-[#b3e5dc] dark:hover:text-sky-800">Skills</a>
         </div>
         
       </nav>

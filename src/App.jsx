@@ -31,7 +31,7 @@ function App() {
           
           
         <div className="hidden sm:flex md:flex lg:flex xl:flex justify-center items-center bottom-4 right-4 w-16 h-16 rounded-full fixed bg-gray-200 opacity-50 transition-transform duration-300 hover:scale-110 ">
-          <img onClick={toggleNight}src={isNight ? `icons/${"moon"}.svg`:`icons/${"sun"}.svg`} alt="React logo" className="w-10 h-10 transition-transform duration-300 hover:scale-110" />
+          <img onClick={toggleNight}src={isNight ? `icons/${"moon2"}.svg`:`icons/${"sun"}.svg`} alt="React logo" className="w-10 h-10 transition-transform duration-300 hover:scale-110" />
             
         </div>
         <Skills isDark = {isNight}></Skills>
