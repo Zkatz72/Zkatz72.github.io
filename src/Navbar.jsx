@@ -23,10 +23,10 @@ function Navbar(props) {
         </div>
        
         <div className="space-x-6 font-inter hidden sm:flex md:flex lg:flex text-neutral-900 dark:text-neutral-200 xl:flex">
-          <a href="#" className="hover:text-[#b3e5dc] dark:hover:text-sky-800">Home</a>
-          <a href="#experience" className=" hover:text-[#b3e5dc] dark:hover:text-sky-800">Experience</a>
-          <a href="#projects" className=" hover:text-[#b3e5dc] dark:hover:text-sky-800">Projects</a>
-          <a href="#languages" className="hover:text-[#b3e5dc] dark:hover:text-sky-800">Skills</a>
+          <a href="#" className="transition-colors duration-200 hover:text-emerald-600 dark:hover:text-emerald-400">Home</a>
+          <a href="#experience" className="transition-colors duration-200 hover:text-emerald-600 dark:hover:text-emerald-400">Experience</a>
+          <a href="#projects" className="transition-colors duration-200 hover:text-emerald-600 dark:hover:text-emerald-400">Projects</a>
+          <a href="#languages" className="transition-colors duration-200 hover:text-emerald-600 dark:hover:text-emerald-400">Skills</a>
         </div>
         
       </nav>
